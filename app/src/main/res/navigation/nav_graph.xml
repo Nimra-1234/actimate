@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/todayScreen">
+    <fragment
+        android:id="@+id/todayScreen"
+        android:name="com.example.actimate.ui.screens.TodayScreenActivity"
+        android:label="today_screen"
+        tools:layout="@layout/today_screen" >
+        <action
+            android:id="@+id/action_todayScreen_to_settingsScreen"
+            app:destination="@id/settingsScreen" />
+        <action
+            android:id="@+id/action_todayScreen_to_dataScreen2"
+            app:destination="@id/dataScreen2" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsScreen"
+        android:name="com.example.actimate.ui.screens.Settings"
+        android:label="settings_screen"
+        tools:layout="@layout/settings_screen" >
+        <action
+            android:id="@+id/action_settingsScreen_to_todayScreen"
+            app:destination="@id/todayScreen" />
+        <action
+            android:id="@+id/action_settingsScreen_to_dataScreen2"
+            app:destination="@id/dataScreen2" />
+    </fragment>
+    <fragment
+        android:id="@+id/dataScreen2"
+        android:name="com.example.actimate.ui.screens.DataScreen"
+        android:label="data_screen"
+        tools:layout="@layout/data_screen" >
+        <action
+            android:id="@+id/action_dataScreen2_to_todayScreen"
+            app:destination="@id/todayScreen" />
+        <action
+            android:id="@+id/action_dataScreen2_to_settingsScreen"
+            app:destination="@id/settingsScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingSettings"
+        android:name="com.example.actimate.ui.screens.OnboardingSettings"
+        android:label="onboarding_settings"
+        tools:layout="@layout/onboarding_settings" />
+</navigation>
