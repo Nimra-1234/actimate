@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Top-to-bottom lavender gradient -->
+    <gradient
+        android:startColor="#E0D7F8"
+        android:endColor="#9575CD"
+        android:angle="270"/>
+
+</shape>

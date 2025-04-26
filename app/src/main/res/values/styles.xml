@@ -1,0 +1,134 @@
+<resources>
+    <style name="TextAppearance.App.TitleLarge" parent="TextAppearance.MaterialComponents.Headline6">
+        <!-- Customize properties for a large title (e.g., font size, bold) -->
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.App.TitleMedium" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <!-- Customize properties for medium title -->
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.App.BodyLarge" parent="TextAppearance.MaterialComponents.Body1">
+        <!-- Customize properties for body text -->
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <!-- Shared label style -->
+    <style name="SettingsLabel" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Outline text-field with lavender stroke -->
+    <style name="SettingsInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="startIconTint">@color/primary</item>
+    </style>
+
+    <!-- Segmented buttons overlay -->
+    <style name="ThemeOverlay.Lavender.Segmented" parent="">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Material3.MaterialAlertDialog</item>
+        <item name="materialButtonOutlinedStyle">@style/SettingsSegmentedButton</item>
+    </style>
+
+    <style name="SettingsSegmentedButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="checkedIcon">@null</item>
+        <item name="materialThemeOverlay">@null</item>
+    </style>
+
+    <!-- RadioButtons -->
+    <style name="SettingsRadio" parent="@style/Widget.Material3.CompoundButton.RadioButton">
+        <item name="android:buttonTint">@color/primary</item>
+    </style>
+
+    <!-- Buttons -->
+    <style name="SettingsPrimaryButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">32dp</item>
+    </style>
+
+    <style name="SettingsSecondaryButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerRadius">32dp</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <!-- Glassy Card Style -->
+    <style name="GlassyCardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">32dp</item>
+        <item name="cardElevation">12dp</item>
+        <item name="contentPadding">0dp</item>
+        <item name="android:outlineSpotShadowColor">@color/primary</item>
+        <item name="android:outlineAmbientShadowColor">@color/primary</item>
+    </style>
+
+    <!-- Glassy Text Style -->
+    <style name="GlassyTextLarge" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+
+    <!-- Glassy Text Style for Headers -->
+    <style name="GlassyTextHeader" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:alpha">0.9</item>
+    </style>
+
+    <!-- Glassy Icon Container Style -->
+    <style name="GlassyIconContainer">
+        <item name="cardBackgroundColor">#40FFFFFF</item>
+        <item name="cardCornerRadius">40dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <!-- Add these style updates to your styles.xml file -->
+
+    <!-- Card styles for Today's screen -->
+    <style name="TodayCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">3dp</item>
+        <item name="cardBackgroundColor">@color/primary_dark</item>
+        <item name="contentPadding">20dp</item>
+    </style>
+
+    <!-- Text style for the large calorie count -->
+    <style name="TextAppearance.App.CalorieCount" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textSize">56sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Text style for card titles on Today's screen -->
+    <style name="TextAppearance.App.TodayCardTitle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Text style for the total calories label -->
+    <style name="TextAppearance.App.CalorieLabel" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

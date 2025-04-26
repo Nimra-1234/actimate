@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender_background"
+    tools:context=".ui.screens.OnboardingSettings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title with ID for animation -->
+        <TextView
+            android:id="@+id/welcomeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to ActiMate"
+            android:textAppearance="@style/TextAppearance.App.TitleLarge"
+            android:textColor="@color/on_background"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Subtitle with ID for animation -->
+        <TextView
+            android:id="@+id/welcomeSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please enter your details to get started"
+            android:textAppearance="@style/TextAppearance.App.BodyLarge"
+            android:textColor="@color/on_background"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Main Card with ID for animation -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <!-- Weight Input - SAME ID as original -->
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/SettingsInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/weight_kg"
+                    app:startIconDrawable="@drawable/ic_weight_24">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/weightEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Height Input - SAME ID as original -->
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/SettingsInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/height_cm"
+                    android:layout_marginTop="12dp"
+                    app:startIconDrawable="@drawable/ic_height_24">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/heightEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Age Input - SAME ID as original -->
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/SettingsInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/age"
+                    android:layout_marginTop="12dp"
+                    app:startIconDrawable="@drawable/ic_person_24">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/ageEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Gender Section -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/gender"
+                    android:textAppearance="@style/TextAppearance.App.TitleMedium"
+                    android:textColor="@color/on_background" />
+
+                <!-- Gender Radio Buttons - SAME IDs as original -->
+                <RadioGroup
+                    android:id="@+id/genderRadioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/maleRadioButton"
+                        style="@style/SettingsRadio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="32dp"
+                        android:checked="true"
+                        android:text="@string/male" />
+
+                    <RadioButton
+                        android:id="@+id/femaleRadioButton"
+                        style="@style/SettingsRadio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/female" />
+                </RadioGroup>
+
+                <!-- Button - SAME ID as original -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/saveButton"
+                    style="@style/SettingsPrimaryButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:paddingVertical="12dp"
+                    android:text="Get Started" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</FrameLayout>

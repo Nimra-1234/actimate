@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- main gear body -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#B08BFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="
+            m34.337 28.576l-2.319 4.005a.75 .75 0 0 1-.933 .327l-3.817 -1.532
+            q-.23 .176 -.47 .34l-4.079 -4.23
+            a5.713 5.713 0 1 0-8.04 -4.185L8.854 21.62
+            q.027 -.4 .079 -.798L5.707 18.3
+            a.74 .74 0 0 1-.187 -.974l3.062 -5.29
+            a.75 .75 0 0 1 .934 -.327l3.83 1.533
+            a11.5 11.5 0 0 1 2.585 -1.488l.575 -4.039
+            a.746 .746 0 0 1 .747 -.64h6.14
+            a.746 .746 0 0 1 .746 .64l.575 4.04
+            a11.7 11.7 0 0 1 2.584 1.487l3.817 -1.532
+            a.75 .75 0 0 1 .933 .327l.706 1.22
+
+            M21.807 30.868
+            a5.713 5.713 0 0 1-8.04 -4.185h0l-5.825 -1.681
+            q-.023 .344 -.026 .689
+            a12 12 0 0 0 .104 1.488L4.794 29.7
+            a.74 .74 0 0 0-.187 .974l3.062 5.29
+            a.75 .75 0 0 0 .934 .326l3.816 -1.532
+            a11.7 11.7 0 0 0 2.584 1.488l.575 4.039
+            a.746 .746 0 0 0 .747 .64h6.124
+            a.746 .746 0 0 0 .747 -.64l.575 -4.04
+            a11.5 11.5 0 0 0 2.114 -1.147Z"/>
+
+    <!-- compass pointer -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#B08BFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M25.41 28.498H43.5l-9.045 -18.09Z" />
+
+    <!-- small dot -->
+    <path
+        android:fillColor="#B08BFF"
+        android:pathData="
+            M34.455 24.892
+            a0.75 0.75 0 1 0 0 1.5
+            a0.75 0.75 0 1 0 0 -1.5Z" />
+
+    <!-- north tick -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#B08BFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M34.455 22.785V16.12" />
+</vector>

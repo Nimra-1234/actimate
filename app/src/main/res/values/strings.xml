@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ActiMate</string>
+    <string name="weight_hint">Enter your weight (kg)</string>
+    <string name="height_hint">Enter your height (cm)</string>
+    <string name="age_hint">Enter your age</string>
+    <string name="save_button">Save</string>
+    <string name="total_calories_burned">Total Calories Burned: %s kcal</string>
+    <string name="error_loading_data">Error loading data. Please try again.</string>
+    <string name="battery_mode">Battery Mode</string>
+    <string name="max_accuracy">Max Accuracy</string>
+    <string name="battery_saving">Battery Saving</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="save">Save</string>
+    <string name="stop_movement_detection">Stop Movement Detection</string>
+    <string name="msg_fill_all">Please fill in all fields</string>
+    <string name="msg_weight_range">Please enter a valid weight (30-300kg)</string>
+    <string name="msg_height_range">Please enter a valid height (100-250cm)</string>
+    <string name="msg_age_range">Please enter a valid age (13-120years)</string>
+    <string name="msg_select_gender">Please select your gender</string>
+    <string name="msg_saved_ok">Settings updated successfully</string>
+    <string name="msg_saved_error">Error saving settings. Please try again.</string>
+
+</resources>

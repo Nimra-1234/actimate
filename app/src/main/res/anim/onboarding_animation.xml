@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+
+    <!-- Fade in - removed as we're handling alpha in code -->
+    <!-- <alpha
+        android:duration="500"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0" /> -->
+
+    <!-- Slight upward movement -->
+    <translate
+        android:duration="1500"
+        android:fromYDelta="20"
+        android:toYDelta="0"
+        android:interpolator="@android:interpolator/decelerate_quad" />
+
+</set>

@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- 'Today' Menu Item -->
+    <item
+        android:id="@+id/todayScreen"
+        android:icon="@drawable/ic_today"
+
+        android:title="Today"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/colorPrimary"
+    android:titleTextColor="@color/colorAccent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <!-- 'Data' Menu Item -->
+    <item
+        android:id="@+id/dataScreen2"
+        android:icon="@drawable/ic_data"
+        android:title="Data"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/colorPrimary"
+    android:titleTextColor="@color/colorAccent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <!-- 'Settings' Menu Item -->
+    <item
+        android:id="@+id/settingsScreen"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        app:showAsAction="ifRoom"
+        android:iconTint="#000000"
+    android:titleTextColor="@color/colorAccent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base theme: Material 3, DayNight capable -->
+    <style name="Theme.ActiMate" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Brand colours -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="colorOnTertiary">@color/on_tertiary</item>
+
+        <!-- Surfaces -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+
+        <!-- Errors -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+
+        <!-- Optional: status-bar to match primary -->
+        <item name="android:statusBarColor">@color/primary_container</item>
+    </style>
+
+</resources>

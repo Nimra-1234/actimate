@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ── Lavender brand palette ─────────────────────────────── -->
+    <color name="primary">#B08BFF</color>            <!-- light lavender -->
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#EDE7F6</color>
+    <color name="on_primary_container">#4A148C</color>
+
+    <color name="secondary">#9575CD</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="secondary_container">#D1C4E9</color>
+    <color name="on_secondary_container">#311B92</color>
+
+    <color name="tertiary">#CE93D8</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="tertiary_container">#F3E5F5</color>
+    <color name="on_tertiary_container">#4A0072</color>
+
+    <color name="error">#B00020</color>
+    <color name="on_error">#FFFFFF</color>
+
+    <color name="background">#FFFFFF</color>
+    <color name="on_background">#1B1B1B</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#1B1B1B</color>
+    <color name="lavender_background">#F3F0FD</color>
+
+
+    <!-- ── Legacy aliases so old XML keeps compiling ──────────── -->
+    <color name="dark_white">#E0E0E0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bottom_nav_background">@color/surface</color>
+    <color name="colorPrimary">@color/primary</color>
+    <color name="colorAccent">@color/tertiary</color>
+
+    <!-- Glassy UI colors -->
+    <color name="glassy_purple_start">#9C7EF3</color>
+    <color name="glassy_purple_center">#AB71FF</color>
+    <color name="glassy_purple_end">#9161EB</color>
+    <color name="glassy_blue_accent">#80DDFF</color>
+    <color name="glassy_white">#FFFFFF</color>
+    <color name="glassy_transparent_white">#40FFFFFF</color>
+    <color name="_80ddff">#FF8080</color>
+    <color name="primary_dark">#433063</color>
+    <color name="primary_darker">#312348</color>
+
+    <!-- Light purple for chart elements -->
+    <color name="chart_purple_light">#B08BFF</color>
+    <color name="chart_purple_medium">#9575CD</color>
+    <color name="chart_purple_dark">#7E57C2</color>
+
+    <!-- Gradient colors for area chart -->
+    <color name="gradient_start">#9575CD</color>
+    <color name="gradient_end">#B08BFF</color>
+    <color name="dark_purple">#4A3A70</color>
+    <color name="lavender">#B08BFF</color>
+
+    <color name="primary_light">#C6B7F2</color>
+    <color name="accent">#FF9B6B</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#333333</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_tertiary">#999999</color>
+
+    <!-- UI element colors -->
+    <color name="divider">#E0E0E0</color>
+    <color name="success">#43A047</color>
+
+    <!-- System colors (keep these for compatibility) -->
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

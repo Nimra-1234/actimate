@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Glossy Gradient -->
+    <gradient
+        android:type="radial"
+        android:gradientRadius="500dp"
+        android:centerX="0.5"
+        android:centerY="0.5"
+        android:startColor="#B08BFF"
+        android:centerColor="#9F75FF"
+        android:endColor="#7B4FD6" />
+
+    <!-- Add a slight overlay for the glossy effect -->
+    <item android:id="@android:id/background">
+        <shape>
+            <gradient
+                android:type="linear"
+                android:angle="135"
+                android:startColor="#20FFFFFF"
+                android:endColor="#05FFFFFF" />
+        </shape>
+    </item>
+</shape>
